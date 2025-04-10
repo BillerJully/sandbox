@@ -1,0 +1,11 @@
+.borderPolygon {
+  fill: none;
+  stroke: gray;
+  stroke-width: 1;
+}
+
+.filledPolygon {
+  fill: rgba(100, 149, 237, 0.5); /* Полупрозрачный приятный синий */
+  stroke: black;
+  stroke-width: 1;
+}

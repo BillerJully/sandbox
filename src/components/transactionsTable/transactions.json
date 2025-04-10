@@ -1,0 +1,658 @@
+[
+  {
+    "added_date": "2025-03-01T12:00:00Z",
+    "transaction_date": "2025-03-01T12:00:00Z",
+    "description": "Покупка продуктов",
+    "value": 1500,
+    "category": "Еда",
+    "type": false
+  },
+  {
+    "added_date": "2025-03-02T09:00:00Z",
+    "transaction_date": "2025-03-02T09:00:00Z",
+    "description": "Пополнение счета",
+    "value": 5000,
+    "category": "Доход",
+    "type": true
+  },
+  {
+    "added_date": "2025-03-02T14:00:00Z",
+    "transaction_date": "2025-03-02T14:00:00Z",
+    "description": "Такси",
+    "value": 400,
+    "category": "Транспорт",
+    "type": false
+  },
+  {
+    "added_date": "2025-03-03T10:30:00Z",
+    "transaction_date": "2025-03-03T10:30:00Z",
+    "description": "Покупка одежды",
+    "value": 2500,
+    "category": "Шопинг",
+    "type": false
+  },
+  {
+    "added_date": "2025-03-03T16:00:00Z",
+    "transaction_date": "2025-03-03T16:00:00Z",
+    "description": "Оплата интернета",
+    "value": 800,
+    "category": "Коммунальные услуги",
+    "type": false
+  },
+  {
+    "added_date": "2025-03-04T08:45:00Z",
+    "transaction_date": "2025-03-04T08:45:00Z",
+    "description": "Ресторан",
+    "value": 1200,
+    "category": "Еда",
+    "type": false
+  },
+  {
+    "added_date": "2025-03-04T18:30:00Z",
+    "transaction_date": "2025-03-04T18:30:00Z",
+    "description": "Сбережения",
+    "value": 1000,
+    "category": "Сбережения",
+    "type": true
+  },
+  {
+    "added_date": "2025-03-05T11:00:00Z",
+    "transaction_date": "2025-03-05T11:00:00Z",
+    "description": "Покупка в аптеке",
+    "value": 350,
+    "category": "Здоровье",
+    "type": false
+  },
+  {
+    "added_date": "2025-03-05T14:00:00Z",
+    "transaction_date": "2025-03-05T14:00:00Z",
+    "description": "Подписка на сервис",
+    "value": 500,
+    "category": "Развлечения",
+    "type": false
+  },
+  {
+    "added_date": "2025-03-06T09:15:00Z",
+    "transaction_date": "2025-03-06T09:15:00Z",
+    "description": "Погашение кредита",
+    "value": 2000,
+    "category": "Финансовые обязательства",
+    "type": false
+  },
+  {
+    "added_date": "2025-03-06T17:00:00Z",
+    "transaction_date": "2025-03-06T17:00:00Z",
+    "description": "Продажа товаров",
+    "value": 3000,
+    "category": "Доход",
+    "type": true
+  },
+  {
+    "added_date": "2025-03-07T12:00:00Z",
+    "transaction_date": "2025-03-07T12:00:00Z",
+    "description": "Такси на работу",
+    "value": 300,
+    "category": "Транспорт",
+    "type": false
+  },
+  {
+    "added_date": "2025-03-07T19:30:00Z",
+    "transaction_date": "2025-03-07T19:30:00Z",
+    "description": "Зарплата",
+    "value": 50000,
+    "category": "Доход",
+    "type": true
+  },
+  {
+    "added_date": "2025-03-08T10:00:00Z",
+    "transaction_date": "2025-03-08T10:00:00Z",
+    "description": "Оплата телефона",
+    "value": 600,
+    "category": "Коммунальные услуги",
+    "type": false
+  },
+  {
+    "added_date": "2025-03-08T12:30:00Z",
+    "transaction_date": "2025-03-08T12:30:00Z",
+    "description": "Шопинг в магазине",
+    "value": 1500,
+    "category": "Шопинг",
+    "type": false
+  },
+  {
+    "added_date": "2025-03-09T11:00:00Z",
+    "transaction_date": "2025-03-09T11:00:00Z",
+    "description": "Бензин",
+    "value": 1000,
+    "category": "Транспорт",
+    "type": false
+  },
+  {
+    "added_date": "2025-03-09T14:00:00Z",
+    "transaction_date": "2025-03-09T14:00:00Z",
+    "description": "Ремонт квартиры",
+    "value": 7000,
+    "category": "Жилищные расходы",
+    "type": false
+  },
+  {
+    "added_date": "2025-03-10T13:00:00Z",
+    "transaction_date": "2025-03-10T13:00:00Z",
+    "description": "Кафе с друзьями",
+    "value": 800,
+    "category": "Еда",
+    "type": false
+  },
+  {
+    "added_date": "2025-03-10T15:45:00Z",
+    "transaction_date": "2025-03-10T15:45:00Z",
+    "description": "Продажа книги",
+    "value": 200,
+    "category": "Доход",
+    "type": true
+  },
+  {
+    "added_date": "2025-03-11T09:30:00Z",
+    "transaction_date": "2025-03-11T09:30:00Z",
+    "description": "Кинотеатр",
+    "value": 1200,
+    "category": "Развлечения",
+    "type": false
+  },
+  {
+    "added_date": "2025-03-11T12:00:00Z",
+    "transaction_date": "2025-03-11T12:00:00Z",
+    "description": "Покупка билета",
+    "value": 700,
+    "category": "Развлечения",
+    "type": false
+  },
+  {
+    "added_date": "2025-03-12T10:15:00Z",
+    "transaction_date": "2025-03-12T10:15:00Z",
+    "description": "Подарок другу",
+    "value": 3000,
+    "category": "Шопинг",
+    "type": false
+  },
+  {
+    "added_date": "2025-03-12T15:30:00Z",
+    "transaction_date": "2025-03-12T15:30:00Z",
+    "description": "Оплата обучения",
+    "value": 2500,
+    "category": "Образование",
+    "type": false
+  },
+  {
+    "added_date": "2025-03-13T08:00:00Z",
+    "transaction_date": "2025-03-13T08:00:00Z",
+    "description": "Бесплатный курс",
+    "value": 0,
+    "category": "Образование",
+    "type": true
+  },
+  {
+    "added_date": "2025-03-13T12:00:00Z",
+    "transaction_date": "2025-03-13T12:00:00Z",
+    "description": "Чай в кафе",
+    "value": 300,
+    "category": "Еда",
+    "type": false
+  },
+  {
+    "added_date": "2025-03-14T14:00:00Z",
+    "transaction_date": "2025-03-14T14:00:00Z",
+    "description": "Вывод средств",
+    "value": 5000,
+    "category": "Доход",
+    "type": true
+  },
+  {
+    "added_date": "2025-03-14T17:45:00Z",
+    "transaction_date": "2025-03-14T17:45:00Z",
+    "description": "Оплата коммунальных услуг",
+    "value": 2500,
+    "category": "Коммунальные услуги",
+    "type": false
+  },
+  {
+    "added_date": "2025-03-15T10:15:00Z",
+    "transaction_date": "2025-03-15T10:15:00Z",
+    "description": "Покупка одежды",
+    "value": 2000,
+    "category": "Шопинг",
+    "type": false
+  },
+  {
+    "added_date": "2025-03-02T09:00:00Z",
+    "transaction_date": "2025-03-02T09:00:00Z",
+    "description": "Пополнение счета",
+    "value": 5000,
+    "category": "Доход",
+    "type": true
+  },
+  {
+    "added_date": "2025-03-02T14:00:00Z",
+    "transaction_date": "2025-03-02T14:00:00Z",
+    "description": "Такси",
+    "value": 400,
+    "category": "Транспорт",
+    "type": false
+  },
+  {
+    "added_date": "2025-03-03T10:30:00Z",
+    "transaction_date": "2025-03-03T10:30:00Z",
+    "description": "Покупка одежды",
+    "value": 2500,
+    "category": "Шопинг",
+    "type": false
+  },
+  {
+    "added_date": "2025-03-03T16:00:00Z",
+    "transaction_date": "2025-03-03T16:00:00Z",
+    "description": "Оплата интернета",
+    "value": 800,
+    "category": "Коммунальные услуги",
+    "type": false
+  },
+  {
+    "added_date": "2025-03-04T08:45:00Z",
+    "transaction_date": "2025-03-04T08:45:00Z",
+    "description": "Ресторан",
+    "value": 1200,
+    "category": "Еда",
+    "type": false
+  },
+  {
+    "added_date": "2025-03-04T18:30:00Z",
+    "transaction_date": "2025-03-04T18:30:00Z",
+    "description": "Сбережения",
+    "value": 1000,
+    "category": "Сбережения",
+    "type": true
+  },
+  {
+    "added_date": "2025-03-05T11:00:00Z",
+    "transaction_date": "2025-03-05T11:00:00Z",
+    "description": "Покупка в аптеке",
+    "value": 350,
+    "category": "Здоровье",
+    "type": false
+  },
+  {
+    "added_date": "2025-03-05T14:00:00Z",
+    "transaction_date": "2025-03-05T14:00:00Z",
+    "description": "Подписка на сервис",
+    "value": 500,
+    "category": "Развлечения",
+    "type": false
+  },
+  {
+    "added_date": "2025-03-06T09:15:00Z",
+    "transaction_date": "2025-03-06T09:15:00Z",
+    "description": "Погашение кредита",
+    "value": 2000,
+    "category": "Финансовые обязательства",
+    "type": false
+  },
+  {
+    "added_date": "2025-03-06T17:00:00Z",
+    "transaction_date": "2025-03-06T17:00:00Z",
+    "description": "Продажа товаров",
+    "value": 3000,
+    "category": "Доход",
+    "type": true
+  },
+  {
+    "added_date": "2025-03-07T12:00:00Z",
+    "transaction_date": "2025-03-07T12:00:00Z",
+    "description": "Такси на работу",
+    "value": 300,
+    "category": "Транспорт",
+    "type": false
+  },
+  {
+    "added_date": "2025-03-07T19:30:00Z",
+    "transaction_date": "2025-03-07T19:30:00Z",
+    "description": "Зарплата",
+    "value": 50000,
+    "category": "Доход",
+    "type": true
+  },
+  {
+    "added_date": "2025-03-08T10:00:00Z",
+    "transaction_date": "2025-03-08T10:00:00Z",
+    "description": "Оплата телефона",
+    "value": 600,
+    "category": "Коммунальные услуги",
+    "type": false
+  },
+  {
+    "added_date": "2025-03-08T12:30:00Z",
+    "transaction_date": "2025-03-08T12:30:00Z",
+    "description": "Шопинг в магазине",
+    "value": 1500,
+    "category": "Шопинг",
+    "type": false
+  },
+  {
+    "added_date": "2025-03-09T11:00:00Z",
+    "transaction_date": "2025-03-09T11:00:00Z",
+    "description": "Бензин",
+    "value": 1000,
+    "category": "Транспорт",
+    "type": false
+  },
+  {
+    "added_date": "2025-03-09T14:00:00Z",
+    "transaction_date": "2025-03-09T14:00:00Z",
+    "description": "Ремонт квартиры",
+    "value": 7000,
+    "category": "Жилищные расходы",
+    "type": false
+  },
+  {
+    "added_date": "2025-03-10T13:00:00Z",
+    "transaction_date": "2025-03-10T13:00:00Z",
+    "description": "Кафе с друзьями",
+    "value": 800,
+    "category": "Еда",
+    "type": false
+  },
+  {
+    "added_date": "2025-03-10T15:45:00Z",
+    "transaction_date": "2025-03-10T15:45:00Z",
+    "description": "Продажа книги",
+    "value": 200,
+    "category": "Доход",
+    "type": true
+  },
+  {
+    "added_date": "2025-03-11T09:30:00Z",
+    "transaction_date": "2025-03-11T09:30:00Z",
+    "description": "Кинотеатр",
+    "value": 1200,
+    "category": "Развлечения",
+    "type": false
+  },
+  {
+    "added_date": "2025-03-11T12:00:00Z",
+    "transaction_date": "2025-03-11T12:00:00Z",
+    "description": "Покупка билета",
+    "value": 700,
+    "category": "Развлечения",
+    "type": false
+  },
+  {
+    "added_date": "2025-03-12T10:15:00Z",
+    "transaction_date": "2025-03-12T10:15:00Z",
+    "description": "Подарок другу",
+    "value": 3000,
+    "category": "Шопинг",
+    "type": false
+  },
+  {
+    "added_date": "2025-03-12T15:30:00Z",
+    "transaction_date": "2025-03-12T15:30:00Z",
+    "description": "Оплата обучения",
+    "value": 2500,
+    "category": "Образование",
+    "type": false
+  },
+  {
+    "added_date": "2025-03-13T08:00:00Z",
+    "transaction_date": "2025-03-13T08:00:00Z",
+    "description": "Бесплатный курс",
+    "value": 0,
+    "category": "Образование",
+    "type": true
+  },
+  {
+    "added_date": "2025-03-13T12:00:00Z",
+    "transaction_date": "2025-03-13T12:00:00Z",
+    "description": "Чай в кафе",
+    "value": 300,
+    "category": "Еда",
+    "type": false
+  },
+  {
+    "added_date": "2025-03-14T14:00:00Z",
+    "transaction_date": "2025-03-14T14:00:00Z",
+    "description": "Вывод средств",
+    "value": 5000,
+    "category": "Доход",
+    "type": true
+  },
+  {
+    "added_date": "2025-03-14T17:45:00Z",
+    "transaction_date": "2025-03-14T17:45:00Z",
+    "description": "Оплата коммунальных услуг",
+    "value": 2500,
+    "category": "Коммунальные услуги",
+    "type": false
+  },
+  {
+    "added_date": "2025-03-15T10:15:00Z",
+    "transaction_date": "2025-03-15T10:15:00Z",
+    "description": "Покупка одежды",
+    "value": 2000,
+    "category": "Шопинг",
+    "type": false
+  },
+  {
+    "added_date": "2025-03-02T09:00:00Z",
+    "transaction_date": "2025-03-02T09:00:00Z",
+    "description": "Пополнение счета",
+    "value": 5000,
+    "category": "Доход",
+    "type": true
+  },
+  {
+    "added_date": "2025-03-02T14:00:00Z",
+    "transaction_date": "2025-03-02T14:00:00Z",
+    "description": "Такси",
+    "value": 400,
+    "category": "Транспорт",
+    "type": false
+  },
+  {
+    "added_date": "2025-03-03T10:30:00Z",
+    "transaction_date": "2025-03-03T10:30:00Z",
+    "description": "Покупка одежды",
+    "value": 2500,
+    "category": "Шопинг",
+    "type": false
+  },
+  {
+    "added_date": "2025-03-03T16:00:00Z",
+    "transaction_date": "2025-03-03T16:00:00Z",
+    "description": "Оплата интернета",
+    "value": 800,
+    "category": "Коммунальные услуги",
+    "type": false
+  },
+  {
+    "added_date": "2025-03-04T08:45:00Z",
+    "transaction_date": "2025-03-04T08:45:00Z",
+    "description": "Ресторан",
+    "value": 1200,
+    "category": "Еда",
+    "type": false
+  },
+  {
+    "added_date": "2025-03-04T18:30:00Z",
+    "transaction_date": "2025-03-04T18:30:00Z",
+    "description": "Сбережения",
+    "value": 1000,
+    "category": "Сбережения",
+    "type": true
+  },
+  {
+    "added_date": "2025-03-05T11:00:00Z",
+    "transaction_date": "2025-03-05T11:00:00Z",
+    "description": "Покупка в аптеке",
+    "value": 350,
+    "category": "Здоровье",
+    "type": false
+  },
+  {
+    "added_date": "2025-03-05T14:00:00Z",
+    "transaction_date": "2025-03-05T14:00:00Z",
+    "description": "Подписка на сервис",
+    "value": 500,
+    "category": "Развлечения",
+    "type": false
+  },
+  {
+    "added_date": "2025-03-06T09:15:00Z",
+    "transaction_date": "2025-03-06T09:15:00Z",
+    "description": "Погашение кредита",
+    "value": 2000,
+    "category": "Финансовые обязательства",
+    "type": false
+  },
+  {
+    "added_date": "2025-03-06T17:00:00Z",
+    "transaction_date": "2025-03-06T17:00:00Z",
+    "description": "Продажа товаров",
+    "value": 3000,
+    "category": "Доход",
+    "type": true
+  },
+  {
+    "added_date": "2025-03-07T12:00:00Z",
+    "transaction_date": "2025-03-07T12:00:00Z",
+    "description": "Такси на работу",
+    "value": 300,
+    "category": "Транспорт",
+    "type": false
+  },
+  {
+    "added_date": "2025-03-07T19:30:00Z",
+    "transaction_date": "2025-03-07T19:30:00Z",
+    "description": "Зарплата",
+    "value": 50000,
+    "category": "Доход",
+    "type": true
+  },
+  {
+    "added_date": "2025-03-08T10:00:00Z",
+    "transaction_date": "2025-03-08T10:00:00Z",
+    "description": "Оплата телефона",
+    "value": 600,
+    "category": "Коммунальные услуги",
+    "type": false
+  },
+  {
+    "added_date": "2025-03-08T12:30:00Z",
+    "transaction_date": "2025-03-08T12:30:00Z",
+    "description": "Шопинг в магазине",
+    "value": 1500,
+    "category": "Шопинг",
+    "type": false
+  },
+  {
+    "added_date": "2025-03-09T11:00:00Z",
+    "transaction_date": "2025-03-09T11:00:00Z",
+    "description": "Бензин",
+    "value": 1000,
+    "category": "Транспорт",
+    "type": false
+  },
+  {
+    "added_date": "2025-03-09T14:00:00Z",
+    "transaction_date": "2025-03-09T14:00:00Z",
+    "description": "Ремонт квартиры",
+    "value": 7000,
+    "category": "Жилищные расходы",
+    "type": false
+  },
+  {
+    "added_date": "2025-03-10T13:00:00Z",
+    "transaction_date": "2025-03-10T13:00:00Z",
+    "description": "Кафе с друзьями",
+    "value": 800,
+    "category": "Еда",
+    "type": false
+  },
+  {
+    "added_date": "2025-03-10T15:45:00Z",
+    "transaction_date": "2025-03-10T15:45:00Z",
+    "description": "Продажа книги",
+    "value": 200,
+    "category": "Доход",
+    "type": true
+  },
+  {
+    "added_date": "2025-03-11T09:30:00Z",
+    "transaction_date": "2025-03-11T09:30:00Z",
+    "description": "Кинотеатр",
+    "value": 1200,
+    "category": "Развлечения",
+    "type": false
+  },
+  {
+    "added_date": "2025-03-11T12:00:00Z",
+    "transaction_date": "2025-03-11T12:00:00Z",
+    "description": "Покупка билета",
+    "value": 700,
+    "category": "Развлечения",
+    "type": false
+  },
+  {
+    "added_date": "2025-03-12T10:15:00Z",
+    "transaction_date": "2025-03-12T10:15:00Z",
+    "description": "Подарок другу",
+    "value": 3000,
+    "category": "Шопинг",
+    "type": false
+  },
+  {
+    "added_date": "2025-03-12T15:30:00Z",
+    "transaction_date": "2025-03-12T15:30:00Z",
+    "description": "Оплата обучения",
+    "value": 2500,
+    "category": "Образование",
+    "type": false
+  },
+  {
+    "added_date": "2025-03-13T08:00:00Z",
+    "transaction_date": "2025-03-13T08:00:00Z",
+    "description": "Бесплатный курс",
+    "value": 0,
+    "category": "Образование",
+    "type": true
+  },
+  {
+    "added_date": "2025-03-13T12:00:00Z",
+    "transaction_date": "2025-03-13T12:00:00Z",
+    "description": "Чай в кафе",
+    "value": 300,
+    "category": "Еда",
+    "type": false
+  },
+  {
+    "added_date": "2025-03-14T14:00:00Z",
+    "transaction_date": "2025-03-14T14:00:00Z",
+    "description": "Вывод средств",
+    "value": 5000,
+    "category": "Доход",
+    "type": true
+  },
+  {
+    "added_date": "2025-03-14T17:45:00Z",
+    "transaction_date": "2025-03-14T17:45:00Z",
+    "description": "Оплата коммунальных услуг",
+    "value": 2500,
+    "category": "Коммунальные услуги",
+    "type": false
+  },
+  {
+    "added_date": "2025-03-15T10:15:00Z",
+    "transaction_date": "2025-03-15T10:15:00Z",
+    "description": "Покупка одежды",
+    "value": 2000,
+    "category": "Шопинг",
+    "type": false
+  }
+]

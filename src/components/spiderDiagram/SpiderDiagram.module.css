@@ -1,0 +1,235 @@
+.spiderContainer {
+  display: flex;
+  max-width: 920px;
+  min-height: 400px;
+  text-align: center;
+  background: #fcfcfc;
+  border-radius: 12px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  padding: 10px;
+  box-sizing: border-box;
+}
+
+.spiderContainerLeft {
+  box-sizing: border-box;
+  width: 450px;
+  margin: 5px;
+  margin-right: 10px;
+}
+.addInputContainer {
+  box-sizing: border-box;
+  max-height: fit-content;
+  display: flex;
+  justify-content: space-between;
+  width: 440px;
+  margin: 5px;
+  padding: 5px;
+}
+
+.addItemInput {
+  box-sizing: border-box;
+  width: 280px;
+  height: 32px;
+  border-radius: 4px;
+  border: none;
+  padding-left: 5px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+.addItemButton {
+  width: 90px;
+  height: 32px;
+  background-color: rgb(19, 119, 255);
+  border: 1px solid rgb(2, 107, 255);
+  color: #ffffff;
+  border-radius: 4px;
+  transition: 0.4s;
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+}
+.addItemButton:hover {
+  cursor: pointer;
+  background-color: rgb(55, 138, 254);
+  transition: 0.4s;
+}
+
+.spiderContainerRight {
+  box-sizing: border-box;
+  width: 430px;
+  margin: 5px;
+  display: flex;
+  text-align: center;
+  justify-content: center;
+  align-items: center;
+}
+.ItemsList {
+  box-sizing: border-box;
+  width: 450px;
+  max-height: 360px;
+  margin: 5px;
+  padding: 5px;
+  overflow: scroll;
+}
+.ItemsList_title {
+  margin-top: 2px;
+}
+ul {
+  list-style: none;
+  padding: 0;
+  display: flex;
+  width: 100%;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: start;
+}
+.itemName {
+  margin-left: 5px;
+  width: 60px;
+  text-align: start;
+}
+
+.itemValue {
+  width: 68px;
+  display: flex;
+  justify-content: space-between;
+}
+
+.itemValueChangeButton {
+  width: 24px;
+  height: 24px;
+  border-radius: 50px;
+  border: none;
+  background-color: rgb(19, 119, 255);
+  color: #fff;
+  text-align: center;
+}
+.itemValueChangeButton:hover {
+  cursor: pointer;
+  background-color: rgb(55, 138, 254);
+  transition-duration: 0.4s;
+}
+
+.itemsLine {
+  margin-bottom: 10px;
+  margin-left: 5px;
+  margin-right: 5px;
+  padding: 5px;
+  width: 420px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background-color: #fff;
+  border-radius: 4px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+.removeItem {
+  width: 90px;
+  height: 28px;
+  background-color: rgb(19, 119, 255);
+  border: 1px solid rgb(2, 107, 255);
+  color: #ffffff;
+  border-radius: 4px;
+}
+
+.removeItem:hover {
+  cursor: pointer;
+  background-color: rgb(55, 138, 254);
+  transition-duration: 0.4s;
+}
+
+@media (max-width: 960px) {
+  .spiderContainer {
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+  }
+}
+
+@media (max-width: 670px) {
+  .spiderContainerLeft {
+    box-sizing: border-box;
+    width: 360px;
+    margin: 5px;
+  }
+
+  .addInputContainer {
+    max-height: fit-content;
+    display: flex;
+    justify-content: space-between;
+    width: 360px;
+    margin: 5px;
+    padding: 5px;
+  }
+
+  .ItemsList {
+    box-sizing: border-box;
+    width: 360px;
+    margin: 5px;
+    padding: 5px;
+  }
+  .spiderContaineRight {
+    box-sizing: border-box;
+    width: 220px;
+    margin: 5px;
+  }
+
+  .itemsLine {
+    margin-bottom: 10px;
+    margin-left: 5px;
+    margin-right: 5px;
+    padding: 5px;
+    width: 350px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #fff;
+    border-radius: 4px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  }
+}
+
+@media (max-width: 450px) {
+  .spiderContainer {
+    width: 430px;
+  }
+  .spiderContainerLeft {
+    box-sizing: border-box;
+    width: 340px;
+    margin: 5px;
+  }
+
+  .addInputContainer {
+    max-height: fit-content;
+    display: flex;
+    justify-content: space-between;
+    width: 340px;
+    margin: 5px;
+    padding: 5px;
+  }
+
+  .ItemsList {
+    box-sizing: border-box;
+    width: 340px;
+    margin: 5px;
+    padding: 5px;
+  }
+  .spiderContaineRight {
+    box-sizing: border-box;
+    width: 200px;
+    margin: 5px;
+  }
+
+  .itemsLine {
+    margin-bottom: 10px;
+    margin-left: 5px;
+    margin-right: 5px;
+    padding: 5px;
+    width: 330px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #fff;
+    border-radius: 4px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  }
+}

@@ -1,0 +1,92 @@
+.authContainer {
+  background-color: #fff;
+  width: 420px;
+
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-between;
+  border-radius: 12px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  padding: 10px;
+  box-sizing: border-box;
+}
+.authTitle {
+  display: flex;
+  justify-content: center;
+  align-items: start;
+  font-size: 26px;
+  height: 30px;
+  width: 420px;
+}
+
+.authForm {
+  display: flex;
+  width: 420px;
+  flex-direction: column;
+  align-items: center;
+  gap: 20px;
+  justify-content: center;
+}
+.authForm_container {
+}
+.authForm_Input {
+  box-sizing: border-box;
+  width: 348px;
+  height: 36px;
+  padding-left: 5px;
+  background-color: #fff;
+  border: 0.5px solid grey;
+  border-radius: 4px;
+}
+.authForm_Label {
+}
+.authForm_button {
+  box-sizing: border-box;
+  width: 348px;
+  height: 36px;
+  background-color: rgb(19, 119, 255);
+  border: 1px solid rgb(2, 107, 255);
+  color: #ffffff;
+  border-radius: 4px;
+  transition: 0.4s;
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+}
+.authForm_button:hover {
+  cursor: pointer;
+  background-color: rgb(55, 138, 254);
+  transition: 0.4s;
+}
+
+.authNotification_link {
+  width: 420px;
+  height: 30px;
+  color: rgb(2, 107, 255);
+}
+
+.authNotification_link:hover {
+  color: rgb(47, 133, 253);
+}
+
+@media (max-width: 460px) {
+  .authContainer {
+    width: 360px;
+  }
+  .authTitle {
+    width: 360px;
+  }
+
+  .authForm {
+    width: 360px;
+  }
+
+  .authForm_Input {
+    width: 328px;
+  }
+  .authForm_button {
+    width: 328px;
+  }
+  .authNotification_link {
+    width: 360px;
+  }
+}
