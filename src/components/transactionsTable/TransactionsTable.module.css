@@ -1,0 +1,30 @@
+.tableContainer {
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  padding: 16px;
+  border: 1px solid red;
+  min-width: 900px;
+  width: fit-content;
+  max-width: 1100px;
+  min-height: 420px;
+  height: min-content;
+  box-sizing: border-box;
+}
+.tableContainer_titleContainer {
+  display: flex;
+  margin: 0;
+  width: 100%;
+  gap: 10px;
+  align-items: center;
+  text-align: center;
+}
+.tableContainer_title {
+  margin: 0px;
+}
+.tableContainer_refreshButton {
+  height: 20px;
+  width: 20px;
+  text-align: center;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
